@@ -84,6 +84,7 @@ body {
         background-repeat: no-repeat;
         color: #fff;
         background-color: #12151c;
+        background-size: cover;
         -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
     }
@@ -123,6 +124,7 @@ body {
 
     .personal{
         margin: 0 5% 0 5%;
+        justify-content: center;
     }
 
     .social{
@@ -157,6 +159,7 @@ body {
         color: #fff;
         background-color: #12151c;
         background-repeat: no-repeat;
+        background-size: cover;
         -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
     }
@@ -196,6 +199,7 @@ body {
 
     .personal{
         margin: 0 5% 0 5%;
+        justify-content: center;
     }
 
     .social{
@@ -222,43 +226,293 @@ body {
 /* Tablet (481px to 768px) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     body {
-        font-size: 16px;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url('../img/bg2.jpeg');
+        color: #fff;
+        background-color: #12151c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
-    .content {
-        /* Tablet-specific styles for content area */
+    .curveImg1 {
+        display: none;
+    }
+
+    .curveImg2 {
+        display: none;
+    }
+
+    #debiimg {
+        width: 300px;
+        margin: 10% 10% 10% 10%;
+        border-radius: 50%;
+    }
+
+    #debibox {
+
+        z-index: 4;
+        background-color: #0623a5;
+        color: #fff;
+        width: 100%;
+        font-size: xx-large;
+        padding: 1%;
+        text-align: center;
+
+    }
+    #hello {
+
+        z-index: 4;
+        margin-top: 5%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .personal{
+        margin: 0 5% 0 5%;
+        justify-content: center;
+    }
+
+    .social{
+        z-index: 4;
+        border: solid 0px transparent;
+        background-color: #25d366;
+        height: 2rem;
+        width: 40%;
+        margin-left: 30%; 
+        padding: 2% 0 0 0;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: #fff;
+        font-size: large;
     }
 }
 
 /* Laptop (769px to 1024px) */
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     body {
-        font-size: 18px;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url('../img/bg2.jpeg');
+        color: #fff;
+        background-color: #12151c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
-    .content {
-        /* Laptop-specific styles for content area */
+    .curveImg1 {
+        display: none;
+    }
+
+    .curveImg2 {
+        display: none;
+    }
+
+    #debiimg {
+        width: 300px;
+        margin: 10% 10% 10% 10%;
+        border-radius: 50%;
+    }
+
+    #debibox {
+
+        z-index: 4;
+        background-color: #0623a5;
+        color: #fff;
+        width: 100%;
+        font-size: xx-large;
+        padding: 1%;
+        text-align: center;
+
+    }
+    #hello {
+
+        z-index: 4;
+        margin-top: 5%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .personal{
+        margin: 0 5% 0 5%;
+        justify-content: center;
+    }
+
+    .social{
+        z-index: 4;
+        border: solid 0px transparent;
+        background-color: #25d366;
+        height: 2rem;
+        width: 40%;
+        margin-left: 30%; 
+        padding: 2% 0 0 0;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: #fff;
+        font-size: large;
     }
 }
 
 /* Desktop (1025px to 1200px) */
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
     body {
-        font-size: 20px;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url('../img/bg2.jpeg');
+        color: #fff;
+        background-color: #12151c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
-    .content {
-        /* Desktop-specific styles for content area */
+    .curveImg1 {
+        display: none;
+    }
+
+    .curveImg2 {
+        display: none;
+    }
+
+    #debiimg {
+        width: 300px;
+        margin: 10% 10% 10% 10%;
+        border-radius: 50%;
+    }
+
+    #debibox {
+
+        z-index: 4;
+        background-color: #0623a5;
+        color: #fff;
+        width: 100%;
+        font-size: xx-large;
+        padding: 1%;
+        text-align: center;
+
+    }
+    #hello {
+
+        z-index: 4;
+        margin-top: 5%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .personal{
+        margin: 0 5% 0 5%;
+        justify-content: center;
+    }
+
+    .social{
+        z-index: 4;
+        border: solid 0px transparent;
+        background-color: #25d366;
+        height: 2rem;
+        width: 40%;
+        margin-left: 30%; 
+        padding: 2% 0 0 0;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: #fff;
+        font-size: large;
     }
 }
 
 /* TV (over 1200px) */
 @media only screen and (min-width: 1200px) {
     body {
-        font-size: 22px;
+        font-size: 14px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background-image: url('../img/bg2.jpeg');
+        color: #fff;
+        background-color: #12151c;
+        background-repeat: no-repeat;
+        background-size: cover;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
-    .content {
-        /* TV-specific styles for content area */
+    .curveImg1 {
+        display: none;
+    }
+
+    .curveImg2 {
+        display: none;
+    }
+
+    #debiimg {
+        width: 300px;
+        margin: 10% 10% 5% 10%;
+        border-radius: 50%;
+    }
+
+    #debibox {
+
+        z-index: 4;
+        background-color: #fbffa4;
+        color: #2c0c70;
+        width: 60%;
+        margin-left: 20%;
+        font-size: xx-large;
+        padding: 1%;
+        text-align: center;
+
+    }
+    #hello {
+
+        z-index: 4;
+        margin-top: 2%;
+        font-size: 50px;
+        color: #fff;
+    }
+
+    .personal{
+        margin: 0 5% 0 5%;
+        justify-content: center;
+        font-size: larger;
+    }
+
+    .social{
+        z-index: 4;
+        border: solid 0px transparent;
+        background-color: #25d366;
+        height: 2rem;
+        width: 17%;
+        margin-left: 42%; 
+        padding: 1% 0 0 0;
+        margin-bottom: 5%;
+        margin-top: 2.5%;
+    }
+
+    .social a {
+        text-decoration: none;
+        color: #fff;
+        font-size: large;
     }
 }
