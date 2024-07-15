@@ -84,6 +84,8 @@ body {
         background-repeat: no-repeat;
         color: #fff;
         background-color: #12151c;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
     .curveImg1 {
@@ -155,6 +157,8 @@ body {
         color: #fff;
         background-color: #12151c;
         background-repeat: no-repeat;
+        -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
     }
 
     .curveImg1 {
